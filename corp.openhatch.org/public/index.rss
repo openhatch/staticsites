@@ -1,0 +1,330 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>wiki</title>
+<link>http://corp.openhatch.org//</link>
+<description>wiki</description>
+<item>
+
+	<title>2012-08-29</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-08-29/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-08-29/</link>
+
+	<pubDate>Thu, 30 Aug 2012 18:14:13 +0000</pubDate>
+	<dcterms:modified>2012-08-30T18:14:13Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s log, supplemental&lt;/p&gt;
+
+&lt;p&gt;Wednesday, August 29, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Researched why CA hasn&#39;t processed some of our corporate paperwork yet, and resolved to reprint and resend some forms&lt;/li&gt;
+&lt;li&gt;Asked Mike to be treasurer&lt;/li&gt;
+&lt;li&gt;Dealt with payroll subleties&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tuesday, August 28, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spent most of the day at Noisebridge, play-testing the flow chart for the 4-hour &quot;Contribute to a project&quot; section (and took notes)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Monday, August 27, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Planned to delegate some JHU planning to Shauna&lt;/li&gt;
+&lt;li&gt;Wrote a plan for spam on the site; sent to OH-Dev&lt;/li&gt;
+&lt;li&gt;Sent an email to WMF to handle some finance items&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2012-08-22</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-08-22/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-08-22/</link>
+
+	<pubDate>Thu, 23 Aug 2012 00:55:06 +0000</pubDate>
+	<dcterms:modified>2012-08-23T00:55:06Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s log, Wed Aug 22, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pushed forward on JHU, UIUC, Berkeley, and Wellesley venues for Open Source Comes to Campus&lt;/li&gt;
+&lt;li&gt;Posted an idea on how to improve retention and excitement for projects-day to OH-Events&lt;/li&gt;
+&lt;li&gt;Removed some spam from OH site&lt;/li&gt;
+&lt;li&gt;Pushed forward on oh-bugimporters rewrite&lt;/li&gt;
+&lt;li&gt;Signed a form with WMF so I can be reimbursed for travel expenses&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2012-08-21</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-08-21/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-08-21/</link>
+
+	<pubDate>Wed, 22 Aug 2012 17:29:25 +0000</pubDate>
+	<dcterms:modified>2012-08-22T17:29:25Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s log, Mon and Tue Aug 20-21, 2012&lt;/p&gt;
+
+&lt;p&gt;Monday:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Had a conversation about workplace diversity at Akamai (which was actually very interesting)&lt;/li&gt;
+&lt;li&gt;Caught up with Michael Stone more&lt;/li&gt;
+&lt;li&gt;Had IRC meeting with Sumana to discuss the Wikimania Hackathon&lt;/li&gt;
+&lt;li&gt;Met up with Boston Ruby folks (Dan and Rebecca) who were part of the Boston Ruby Workshop organizing team&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tuesday:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Returned to SF&lt;/li&gt;
+&lt;li&gt;Pushed the fundraising blog post forward, which should be this week&#39;s post&lt;/li&gt;
+&lt;li&gt;Began to port the antispam code into something that can live in the main codebase&lt;/li&gt;
+&lt;li&gt;Pushed forward the changes to oh-bugimporters, thanks to johnmorr&lt;/li&gt;
+&lt;li&gt;Dealt with a lot of post-event tasks from WMF Hackathon&lt;/li&gt;
+&lt;li&gt;Added more money to our nearlyfreespeech.net account, and removed lots of unneeded files from the blog site there&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2012-08-07</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-08-07/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-08-07/</link>
+
+	<pubDate>Wed, 08 Aug 2012 18:40:17 +0000</pubDate>
+	<dcterms:modified>2012-08-08T18:40:17Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s log, Tue August 7, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pinged Cat about a quote for the fundraising blog post&lt;/li&gt;
+&lt;li&gt;Added some nginx fastcgi caching to the blog, only to learn from Jessica that this broke our ability to log into the blog. (In response, I wrote a document about things to test when changing the blog, so I can detect this sort of problem easily.)&lt;/li&gt;
+&lt;li&gt;Emailed a Wikipedian I met at Wikimania who does gender diversity outreach to see if I can get involved there.&lt;/li&gt;
+&lt;li&gt;Read some articles on the suggestion of a friend.&lt;/li&gt;
+&lt;li&gt;Spent a while talking with Mike Linksvayer about possible research topics for OpenHatch to pursue, and what sort of relationship we should have with the various awesome outreach projects that exist in the world, and about the idea of membership.&lt;/li&gt;
+&lt;li&gt;Tentatively ACK&#39;d, and begun to plan, JHU campus.openhatch.org event.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Captain&#39;s log, Mon, Aug 6, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spent more time revising August plan&lt;/li&gt;
+&lt;li&gt;Provided info to Glenn Willen about a blog post he might be willing to write&lt;/li&gt;
+&lt;li&gt;Chatted with Michael Stone about OpenHatch&#39;s relationship to other outreach efforts, and about the idea of membership.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2012-08-03</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-08-03/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-08-03/</link>
+
+	<pubDate>Mon, 06 Aug 2012 18:46:51 +0000</pubDate>
+	<dcterms:modified>2012-08-06T18:46:51Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s logs, collected&lt;/p&gt;
+
+&lt;p&gt;Monday, July 30, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Met up with Mike to discuss the process of hiring me, including CA paperwork.&lt;/li&gt;
+&lt;li&gt;Did a lot of thinking and planning about a shorter campus.openhatch.org event, and thinking aloud about the reasons that we see such Saturday-&amp;gt;Sunday drop-off.&lt;/li&gt;
+&lt;li&gt;Did some more antispam on the openhatch.org project pages.&lt;/li&gt;
+&lt;li&gt;Updated blog theme to have a big &quot;Subscribe&quot; RSS link and an email box to enter your email for the announcements list.&lt;/li&gt;
+&lt;li&gt;Did a lot of post-WMF Hackathon thinking.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tuesday, July 31, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For WMF, wrote a short note to be included in the monthly tech newsletter about the Hackathon.&lt;/li&gt;
+&lt;li&gt;Did a longer write-up of the Hackathon for wikitech-l.&lt;/li&gt;
+&lt;li&gt;Sent letter to CA Secretary of State registering us as a foreign corporation.&lt;/li&gt;
+&lt;li&gt;Sent invoice to WMF for Hackathon.&lt;/li&gt;
+&lt;li&gt;Requested reimbursement from WMF of Hackathon and Open Source Bridge travel expenses.&lt;/li&gt;
+&lt;li&gt;Discussed what soonick5 what kinds of things to work on, and soonick5&#39;s time availability.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Wednesday, August 1, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Largely took this day off to rest and work on personal projects.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thursday, August 2, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spent much of the day discussing August plan with Karen.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Friday, August 3, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Shipped OpenHatch newsletter.&lt;/li&gt;
+&lt;li&gt;Helped Karen write a blog post about her attendance at PyLadies SF&#39;s Django-related &quot;How to get involved in open source?&quot;&lt;/li&gt;
+&lt;li&gt;WOrked more on August plan, though didn&#39;t finish by the end of the day.&lt;/li&gt;
+&lt;li&gt;Sent an email to Peers with a discussion of Selena&#39;s post-OSCON idea.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2012-07-26</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-07-26/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-07-26/</link>
+
+	<pubDate>Fri, 27 Jul 2012 22:01:04 +0000</pubDate>
+	<dcterms:modified>2012-07-27T22:01:04Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s log, Thu July 26&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Continued to trudge through Qualtrics UI to get Hackathon exit survey tested and set up&lt;/li&gt;
+&lt;li&gt;Created a Wikimedia Research page about the exit survey, to be extra kosher&lt;/li&gt;
+&lt;li&gt;(Published Wed&#39;s captain&#39;s log)&lt;/li&gt;
+&lt;li&gt;Sent thread to wikitech-l discussing what should become of the Hackathon Laptop Setup guide.&lt;/li&gt;
+&lt;li&gt;Reviewed and pushed soonick5&#39;s patch, finally!&lt;/li&gt;
+&lt;li&gt;Discussed WMF events stuff with Shauna, and Sumana. Did lots of follow-up tasks from that.&lt;/li&gt;
+&lt;li&gt;Did a lot of emailing to make sure we&#39;re on good ground for invoicing WMF. (We are.)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2012-07-25</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-07-25/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-07-25/</link>
+
+	<pubDate>Thu, 26 Jul 2012 23:34:09 +0000</pubDate>
+	<dcterms:modified>2012-07-26T23:34:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s log, Wed July 25&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Called MA corporations office, only to learn that they won&#39;t do what I want&lt;/li&gt;
+&lt;li&gt;Begun to move text for WMF Hackathon laptop setup to mediawiki.org&lt;/li&gt;
+&lt;li&gt;Finished adjusting text of WMF Hackathon exit survey as per feedback on Events list&lt;/li&gt;
+&lt;li&gt;(publish previous day&#39;s Captain&#39;s Log)&lt;/li&gt;
+&lt;li&gt;Discuss possible tie-ins with Ohloh maintainers&lt;/li&gt;
+&lt;li&gt;Plan a sprint, and request funding from PSF Sprints&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2012-07-24</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-07-24/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-07-24/</link>
+
+	<pubDate>Wed, 25 Jul 2012 17:48:09 +0000</pubDate>
+	<dcterms:modified>2012-07-25T17:48:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s log, July 24, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Pushed Berkeley campus.openhatch.org event along.&lt;/li&gt;
+&lt;li&gt;Pinged Python SF Meetup organizer to see if we can work together on an event.&lt;/li&gt;
+&lt;li&gt;Deployed Karen&#39;s &quot;less&quot; branch (and cleaned up a few issues that cropped up from it).&lt;/li&gt;
+&lt;li&gt;Assigned a task to a possible first-time contributor on IRC.&lt;/li&gt;
+&lt;li&gt;Updated Sumana on post-Hackathon tasks, and set a new deadline of July 31 for those.&lt;/li&gt;
+&lt;li&gt;Received authorization to use Qualtrics for the post-Hackathon survey.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2012-07-23</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-07-23/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-07-23/</link>
+
+	<pubDate>Tue, 24 Jul 2012 18:24:31 +0000</pubDate>
+	<dcterms:modified>2012-07-25T17:48:09Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s log, Mon July 23&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Began the paperwork process (documenting it partially here on corp.openhatch.org) to have the org hire me. (As background, last Tuesday&#39;s board meeting contained a decision to hire me, which is fantastic.)&lt;/li&gt;
+&lt;li&gt;Wrote a draft of an exit survey for Wikimania Hackathon attendees.&lt;/li&gt;
+&lt;li&gt;Processed some business cards and got in touch with people who I met at OSCON or in earlier travels.&lt;/li&gt;
+&lt;li&gt;Emailed Hackers at Berkeley and JHU ACM about bringing a campus open source workshop there.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+<item>
+
+	<title>2012-06-22</title>
+
+
+	<guid isPermaLink="no">http://corp.openhatch.org//log/2012-06-22/</guid>
+
+	<link>http://corp.openhatch.org//log/2012-06-22/</link>
+
+	<pubDate>Mon, 25 Jun 2012 21:55:54 +0000</pubDate>
+	<dcterms:modified>2012-06-25T21:55:54Z</dcterms:modified>
+
+	<description>&lt;p&gt;Captain&#39;s log, Fri Jun 22, 2012&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Spent more time with Sumana discussing ideas for Wikimania hackathon&lt;/li&gt;
+&lt;li&gt;Spent more time with existing Wikimania staff discussing logistics and planning&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+
+
+</item>
+
+</channel>
+</rss>

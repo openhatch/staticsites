@@ -1,0 +1,34 @@
+<?php
+$page_title = "Hackathon";
+$content = <<<EOD
+<h2>An open source hackathon</h2>
+
+<p>Bring your laptop and work on an open source software project.
+You can program, write documentation,
+make fun of people through <abbr title="Internet Relay Chat">IRC</abbr>,
+discover and report usability problems, and more.</p>
+
+<p>The point of this hackathon is to help you get your hands dirty working on a real project. To help with that,
+we'll have Asheesh Laroia from <a href="http://openhatch.org/">OpenHatch</a>
+and other community members in attendance. If you don't know what you want to work on,
+or you get stuck, you can ask for help, ideas, or advice.</p>
+
+<p>This is a perfect opportunity to work on your problem-solving 
+skills, and learn to collaborate with other open source programmers.</p>
+                                                                                                                                 
+<h2>Where and when</h2>
+
+<p>The essential details:</p>
+
+<ul>
+<li>Sunday, September 26
+<li>Doors at the entrance to Penn engineering at 34th and Walnut open at 11am. We'll be going all day. If you have any trouble getting in give Yuvi Masory a call at 267-979-9156.
+<li>If you get there within the first 30 minutes, we'll make you coffee.</li>
+<li>Right now we have funding for some Pizza, and are trying to get more!</li>
+<li>You don't have to, but please <a href="http://www.facebook.com/event.php?eid=109664059095389">RSVP on Facebook</a>.</li>
+</ul>
+
+EOD;
+
+require_once("template.php");
+?>

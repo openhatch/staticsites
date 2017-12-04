@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:dcterms="http://purl.org/dc/terms/" >
+<channel>
+<title>RecentChanges</title>
+<link>http://corp.openhatch.org//recentchanges/</link>
+<description>wiki</description>
+
+</channel>
+</rss>

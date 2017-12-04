@@ -1,0 +1,97 @@
+/* 
+
+	Hi!  Welcome to style.css.  CSS stands for cascading style sheet - we recommend http://www.w3schools.com/css/ for the nitty gritty of CSS syntax.  But basically, what you should know is:
+
+	 - Which part of a web page the css is referring to is specified by either ids or classes in the .html file.  For instance, a div with id="signup" will be styled by the element #signup below.  # means ID, and . means class in .css files.
+
+	 - Elements inside of other elements inherit their style, unless the .css file specifies otherwise.  For instance, if you have the html: <div id="outside">Hello <div id="inside">world!</div></div>, and 'Hello' is specified in css (#outside) as being in bold font, 'world!' will also be bold unless you add a #inside element to your css.
+
+ 	-  Fun style elements to play with that won't mess with the structure of the page include color, font, and background.  When playing with colors, you can consult http://hexcolor.com/.  Colors can be specified by name ("black", "white") or hexadecimal notation (#000000, #FFFFFF).
+
+*/
+
+
+/* This section sets the defaults for the page, but you may never see changes here if they are overwritten by the div elements below.  */
+html, body {
+	margin: 0;  /* Margin is the amount of space between the border of an element, and the elements outside it. */
+	padding: 0; /* Padding is the amount of space between the border of an element, and the elements inside it. */
+}
+
+body{
+	font: 120%/1.2 Fantasque-Regular,TrebuchetMS,Arial,sans-serif;  /* Default fonts */
+	text-align: left; /* Alignment of the text */
+	background: #A6B7C8; /* Main text background color */
+	color: black; /* Main text color */
+}
+
+@font-face  /* Defines the font to be used */
+{
+	font-family: Fantasque-Regular;  /* Fantasque Sans Mono by Jany Belluz, from http://openfontlibrary.org/en/font/fantasque-sans-mono */
+	src: url(fonts/FantasqueSansMono.woff);
+}
+@font-face  
+{
+	font-family: Fantasque-Bold;  /* Fantasque Sans Mono by Jany Belluz, from http://openfontlibrary.org/en/font/fantasque-sans-mono */
+	src: url(fonts/FantasqueSansMonoBold.woff);
+}
+
+a {                  /* A stands for link, so this section is setting the default characteristics of links. */
+	color: #0000cc;
+	text-decoration: none;
+}
+
+h1 {		     /* This styles the header at the top of the page */
+	font: bold 2.1em Fantasque-Bold,Arial, Arial, Sans-Serif;
+	text-align: center;
+}
+
+h2 {		     /* This styles the headers within the page */
+	font: bold 1.1em Fantasque-Bold,Arial, Arial, Sans-Serif;
+	padding: 0;
+	margin: 0;
+}
+
+
+/* This section alters the appearance of all divs with the class "section", which is all of the divs in our html file.  We can use it to specify style elements that we want to be the same accross divs. */
+.section {
+	padding: 20px 50px 20px 50px;
+	margin-bottom: 0;
+        height:100%;
+}
+
+/* We can also edit individual divs by using their ids. */
+#plan {
+	padding-top:0px;
+	color: black;
+	background-image: none;  /* replace none with url('image-url') to set a background image  */
+        overflow:hidden;
+}
+
+/* You can alter the links within a div with the following syntax */
+#plan a {
+	color: #D1EEEE;
+}
+
+/* This alters the appearance of the div with id="signup". */
+#signup {
+	background: white;
+	text-align: center;
+}
+
+/* This alters the appearance of the div with id="whoweare" */
+#whoweare {
+	background: white;
+	color: black; 
+}
+
+/* The min-left div contains the images. */
+.mini-left {
+	width:300px;
+	float:left;
+	margin: 0 20px 0 20px;
+        clear:all;
+}
+
+.image {
+       margin-bottom:10px;
+}

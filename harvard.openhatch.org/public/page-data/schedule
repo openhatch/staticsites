@@ -1,0 +1,40 @@
+<?php
+$page_title = "Learning day";
+$content = <<<EOD
+<h2>Why do it?</h2>
+
+<p>Open source software like Linux and Firefox are used by hundreds of millions of people.
+This event is the fast track to participating.</p>
+
+<p>If you come out on Saturday, we'll teach you how the community works. You'll get to play with
+essential tools like version control and IRC chat.</p>
+
+<h2>What are we doing?</h2>
+
+<p>In the morning, after coffee and breakfast, we'll have three introductory tutorials:</p>
+<li>Introduction to Open Source Communication Tools</li>
+<li>Introduction to the Command Line</li>
+<li>Introduction to Version Control Using Git</li>
+<p>We'll share lunch, and then afterwards you'll work with mentors to pick an open source project, find a bug to fix, and make a contribution.</p>
+<p>Coffee will be out at 9am, tutorials start at 10am, and the workshop will go until 5pm.</p>
+
+
+<h2>Can anyone sign up?</h2>
+
+<p>You have to be a student at Harvard University to attend. (If you want to run a similar event
+at a different college, email us at <strong>events@openhatch.org</strong>.)</p>
+
+<p>We're looking for people who like technical crafts that
+scale well across the Internet. That usually means software programming, user interface design,
+technical writing, and testing. And we're looking for people who are enthusiastic!</p>
+
+<h2>So sign up</h2>
+<p>To sign up, complete <a href="https://docs.google.com/spreadsheet/viewform?formkey=dG9HM05FRXpzdS1PS1gzYWZQYW5SN3c6MQ">this survey</a>.</p>
+
+<h2>Details</h2>
+<p>We'll be at <a href="http://hcl.harvard.edu/libraries/lamont/forum_room.cfm">the Forum Room in Lamont Library</a>, starting at 9 a.m. on February 16th.</p>
+</div>
+
+EOD;
+require_once("template.php");
+

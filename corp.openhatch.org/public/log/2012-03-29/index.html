@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>2012-03-29</title>
+
+<link rel="stylesheet" href="../../style.css" type="text/css" />
+
+<link rel="stylesheet" href="../../local.css" type="text/css" />
+
+
+
+
+
+</head>
+<body>
+
+<div class="page">
+
+<div class="pageheader">
+<div class="header">
+<span>
+<span class="parentlinks">
+
+<a href="../../">wiki</a>/ 
+
+<a href="../../">log</a>/ 
+
+</span>
+<span class="title">
+2012-03-29
+
+</span>
+</span>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+<div id="pagebody">
+
+<div id="content">
+<p>Captain's log, March 29, 2012</p>
+
+<ul>
+<li>Added Deb as a Bank of America co-signer, and got her a debit card</li>
+<li>Worked further on sending reminders + address requests to T-shirt non-payers
+<ul>
+<li>Found a nice Python mail template package, and will use that to send them, to save me time copying+editing templates.</li>
+</ul></li>
+<li>Reviewed and pushed latest doc improvements from mdaniel (which are quite exciting)</li>
+<li>Emailed a friend at Google OSPO to see if we can catch up</li>
+<li>Diagnosed and fixed further problems with the wiki not saving session data; this seems to be fixed now that I've made the following changes:
+<ul>
+<li>Store sessions in /var/lib/php5/sessions/ , not using subdirectories. This fixes a subtle problem where about 50-70% of the time, session data won't be stored (and errors aren't logged, grr)</li>
+<li>Use file backend not memcache backend for session data (this probably increases the stability of storage of sessions)</li>
+<li>Run the wiki as www-data, not "wiki" user ID</li>
+</ul></li>
+<li>Found on IRC + chatted with one Boston-area Twitter-using woman who is a fan of the Boston Python Workshop (:</li>
+</ul>
+
+</div>
+
+
+
+
+
+</div>
+
+<div id="footer" class="pagefooter">
+
+<div id="pageinfo">
+
+
+
+
+
+
+
+
+
+<div class="pagedate">
+Last edited <span class="date">Wed 04 Apr 2012 02:28:38 AM UTC</span>
+<!-- Created <span class="date">Wed 04 Apr 2012 02:28:38 AM UTC</span> -->
+</div>
+
+</div>
+
+
+<!-- from wiki -->
+</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?php
+$page_title = "Home";
+$content = <<<EOD
+<h2>Open source comes to campus</h2>
+
+<p>We're free software enthusiasts.</p>
+
+<p>We want college students to have the community knowledge and technical skills to participate in
+globally distributed software projects: Big ones, like
+<a href="http://www.mozilla.com/firefox/">Firefox</a> and 
+<a href="http://wordpress.org/">WordPress</a>, and small ones, like
+<a href="http://pyblosxom.bluesock.org/">PyBlosxom</a> and
+<a href="http://rephial.org/">angband</a>.</p>
+
+<p>Does that sound cool? We'll teach you.</p>
+<p>You do <b>not</b> need to know how to program to contribute to free software. You can contribute code, but also original art, testing, documentation, web design, or anything else.</p>
+
+<div class="floatleft">
+<h2>The Plan</h2>
+<p>On <strong>Saturday, March 9th</strong>, we invite you to a day-long immersion event.</p>
+<p>In the morning, we'll teach you about open source licensing, collaboration tools, and how free software projects
+are organized.</p>
+<p>In the afternoon, we'll help you make contributions to open source projects.</p>
+<p>And throughout the day, we'll feed you, get to know you, and talk with you about opportunities for students in open source.</p>
+<p>Space is pretty limited and we want to prepare to meet your needs.  Please sign up in advance by <a href="https://docs.google.com/spreadsheet/viewform?formkey=dFpoT200UkhkT2U5LXFvZmRvc2NDWVE6MA#gid=0">filling out this form</a>. Don't delay!</p>
+
+<p class="doit"><a href="schedule/"><strong>Learn more and sign up</strong></a> &raquo;</p>
+
+</div>
+
+<br style="clear: both;">
+EOD;
+
+require_once("template.php");
+
