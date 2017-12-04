@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Open Source Comes to Campus: CCSF</title>
+<link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+<body>
+<div class="section colored" id="plan">
+  <h1>Open Source Comes to Campus: CCSF</h1>
+  <div style="margin-top: 1.5em; margin-right: 1em; float: left; height: 100%;" class="minileft">
+    <div><img src="http://campus.openhatch.org/images/happystudents.jpg" /></div>
+    <div><img src="http://campus.openhatch.org/images/studentandlaptop.jpg" /></div>
+    </div>
+  <h2>The Background</h2>
+  <p>
+    Students like you around the world are gaining valuable
+    experience, connections, and skills by coding, testing, and
+    writing for free software projects like Firefox, WordPress,
+    Wikipedia's backend code, and SAGE.</p>
+
+  <p>You do <em>not</em> need to know how to program to contribute to
+    free software. You can contribute code, but also original art,
+    testing, documentation, web design, or anything else. We want to
+    teach you how to join them.</p>
+
+  <h2>The event</h2>
+  <p>On <strong>Saturday, June 29th</strong>, in <a href="http://www.ccsf.edu/Info/Map/">the Multi-Use Building room 140 (MUB 140)</a>, we want to bring you up to speed on open
+  source projects and help you contribute to a real community.</p>
+  <p>In the morning, we'll teach you about open source licensing,
+    collaboration tools, and how free software projects are
+    organized.  In the afternoon, we'll help you make contributions to open source
+  projects.</p>
+  <p>And throughout the day, we'll feed you, get to know you,
+  and talk with you about opportunities for students in open
+  source.</p>
+  <p>Signups have closed, but you can read more about <a href="#signup">laptop setup</a> below. To stay informed of future events, email hello@openhatch.org.</p>
+</div>
+<br style="clear: both;" />
+<div class="section section_red" id="signup" style="min-height: 10em;">
+<h2>Laptop setup</h2>
+<p><a href="https://openhatch.org/wiki/Open_Source_Comes_to_Campus/CCSF/Laptop_setup">Click here to read how to set up your computer for the workshop.</a></p>
+</div>
+<br style="clear: both;" />
+
+<div class="section colored">
+  <h2>More about open source</h2>
+  <p>Free, open source software is software that is shared freely and
+    available to build upon. It is a great way to apply your skills to
+    real-world projects and social causes. You can participate by writing
+    or reviewing code, answering users' questions, translating the
+    interface to another language, making video tutorials to help new
+    users, and myriad other ways. Open source software is often produced
+    by lots of people collaborating across time and space, and this event
+    specially welcomes newcomers to that style of development.
+  </p>
+  <p>
+    Open source participation is one way to gain real-world skills and
+    make connections that will last you through your career. Volunteer
+    staff will include professionals and academics who use open source
+    daily.
+  </p>
+  <h2>More about the event</h2>
+</br>
+Here's a basic schedule of what you can expect:</br></br>
+9:00am - 9:30am: Coffee, juice, pastries, and getting to know each other</br>
+9:30am - 10:00am: Laptop setup</br>
+10:00am - 12:00pm: Introductory workshops</br>
+12:00pm - 1:00pm: Lunch</br>
+1:00pm - 1:30pm: Contributions demo</br>
+1:30pm - 3:00pm: Contributions workshop</br>
+</div>
+<br style="clear: both;" />
+<div class="section_red">
+  <h2>Who we are</h2>
+  
+  <p>The event is put together by
+    <a href="http://openhatch.org/people/paulproteus/">Asheesh Laroia</a>
+    and Shauna Gordon-McKeon
+    of <a href="http://openhatch.org/">OpenHatch</a>, with the help
+    of Katherine Moloney of <a href="http://www.ccsf.edu/coders">the CCSF Coders</a> and <a href="http://www.ccsf.edu/lug">the CCSF Linux Users Group</a>.
+    It is generously sponsored by <a href="http://www.workforcedevelopmentsf.org/trainingprograms/index.php?option=com_content&view=article&id=92&Itemid=85">TechSF</a>.
+</p>
+  
+  <p>We're a non-profit that helps people get involved in open
+    source. You can <a href="http://openhatch.org/about/">learn
+      more</a>.</p>
+  
+  <h2>Get in touch</h2>
+  
+  <p>If you want to get in touch with us, the best thing to do is to email us. Try this: hello@openhatch.org</p>
+  
+  <p>Want to chat ahead of the event? Ask questions on #openhatch on
+    FreeNode. Consider using IRC your first open source
+    accomplishment. :) Click <a href="http://webchat.freenode.net/?randomnick=1&channels=%23openhatch">here for web chat</a>.</p>
+  
+  <h2>Sign up</h2>
+  
+  <p>Sign-ups have closed, but if you want to be kept aware of future events, email hello@openhatch.org!</p>
+  
+</div>
+</body>
+</html>

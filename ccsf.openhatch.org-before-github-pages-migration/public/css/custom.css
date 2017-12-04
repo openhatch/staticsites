@@ -1,0 +1,106 @@
+.circletag1 {
+    display: block;
+    width: 280px;
+    height: 280px;
+    background: #fff;
+    margin: 5% auto 0 auto;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-image: url(https://openhatch.org/static/images/penguin.png);
+    background-position:50% 50%;
+    background-repeat:no-repeat; 
+    background-size: 50%;   
+}
+
+.circletag2 {
+    display: block;
+    width: 280px;
+    height: 280px;
+    background: #fff;
+    margin: 5% auto 0 auto;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-image: url(../imgs/contribute.jpg);
+    background-position:50% 50%;
+    background-repeat:no-repeat; 
+    background-size: 100%;   
+}
+
+ul.social{
+    display:initial;
+}
+
+/*  True throughout page */
+
+.curriculum-page {
+    margin:0;
+    padding:0;
+    font-size:18px;
+}
+
+.curriculum-page a {
+    text-decoration:underline;
+}
+
+.curriculum-page h1 {
+    margin:0;
+    padding:0;
+}
+
+.curriculum-page h2 {
+    font-weight:bold;
+    font-size:40px;
+}
+
+.curriculum-page h5 {
+    font-weight:bold;
+}
+
+.curriculum-page .section {
+    padding: 35px 30px 35px 50px;
+}
+
+.indent-1 {
+    padding-left:20px;
+}
+
+.indent-2 {
+    padding-left:40px;
+}
+
+
+
+/* Div-specific */
+
+.curriculum-page .header h1 {
+    font-size:80px;
+    color:#24C0EB;
+    font-weight:bold;
+}
+
+.curriculum-page .white, .curriculum-page .white a {
+    color:black;
+}
+
+.curriculum-page .black h2, .curriculum-page .white h2 {
+    color:#24C0EB;
+}
+
+.curriculum-page .blue, .curriculum-page .blue a {
+    color:black;
+    background-color:#24C0EB;
+}
+
+.curriculum-page .blue h2 {
+    color:white;
+}
+
+.curriculum-page .black, .curriculum-page .black a {
+    color:white;
+    background-color:#222222;
+}
+
+
+

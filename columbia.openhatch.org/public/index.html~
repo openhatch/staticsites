@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset=utf-8>
+        <title>Open Source Comes to Campus, at Columbia University</title>
+        <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+</head>
+
+<body>
+        <div class="section" id="plan">
+                <h1>Open Source Comes to Campus, at Columbia University</h1>
+                <div class="minileft">
+                        <div><img src="http://campus.openhatch.org/images/happystudents.jpg" alt="Happy students"/></div>
+                        <div><img src="http://campus.openhatch.org/images/studentandlaptop.jpg" alt="Student and laptop"/></div>
+                </div>
+  
+                <h2>The Background</h2>
+
+                <p>Students like you around the world are gaining
+                valuable experience, connections, and skills by
+                coding, testing, and writing for free software
+                projects like Firefox, WordPress, Wikipedia's backend
+                code, and SAGE.</p>
+
+                <p>You do <em>not</em> need to know how to program to
+                contribute to free software. You can contribute code,
+                but also original art, testing, documentation, web
+                design, or anything else. We want to teach you how to
+                join them.</p>
+
+                <h2>The events</h2>
+
+		<p>This is a day-long immersion event, on <strong>Saturday, October 19th</strong>, from <strong>10:00am to 5:00pm</strong>, at <strong>Columbia University's</strong> <a href="http://ieor.columbia.edu/files/seasieor/file_attach/Mudd_Map.pdf">S. W. Mudd</a> building, <strong>room CSB 452</strong>.</p>
+
+                <p>In the morning, we'll teach you about open source
+                licensing, collaboration tools, and how free software
+                projects are organized.</p>
+
+                <p>In the afternoon, we'll help you make contributions
+                to open source projects.</p>
+
+                <p>And throughout the day we'll feed you, get to know
+                you, and talk with you about opportunities for
+                students in open source.</p>
+
+                <p>Space is pretty limited and we want to prepare to
+                meet your needs.  Please sign up in advance
+                by <a href="#signup">filling out this
+                form</a><noscript>
+                or <a href="https://docs.google.com/forms/d/1oJZ-W38Ogb1Hdn9uOxi8SxwBkuR2ACx3w5KTudXgZ2w/viewform">click
+                here</a></noscript>. Don't delay!</p>
+
+
+                <h2>Or you can scroll past the form and keep reading...</h2>
+        </div>
+
+          <div class="section" id="signup">
+                <iframe src="https://docs.google.com/forms/d/1oJZ-W38Ogb1Hdn9uOxi8SxwBkuR2ACx3w5KTudXgZ2w/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+
+
+        <div class="section" id="more">
+                <h2>More about open source</h2>
+                <p>Free, open source software is software that is
+                shared freely and available to build upon. It is a
+                great way to apply your skills to real-world projects
+                and social causes. You can participate by writing or
+                reviewing code, answering users' questions,
+                translating the interface to another language, making
+                video tutorials to help new users, and myriad other
+                ways. Open source software is often produced by lots
+                of people collaborating across time and space, and
+                this event specially welcomes newcomers to that style
+                of development.</p>
+
+                <p>Open source participation is one way to gain
+                real-world skills and make connections that will last
+                you through your career. Volunteer staff will include
+                professionals and academics who use open source
+                daily.</p>
+        </div>
+
+        <div class="section" id="whoweare">
+                <h2>Who we are</h2>
+		<p>The event is put together by <a href="http://openhatch.org/people/paulproteus/">Asheesh Laroia</a> and Shauna Gordon-McKeon
+                of <a href="http://openhatch.org/">OpenHatch</a>, with the help of the Columbia University <a href="http://www.cs.columbia.edu/wics/">Women in Computer Science</a> and the <a href="http://adicu.com/">Application Development Initiative (ADI)</a>.</p>
+
+
+                <p>We're a non-profit that helps people get involved
+                in open source. You
+                can <a href="http://openhatch.org/about/">learn
+                more</a>.</p>
+  
+                <h2>Get in touch</h2>
+                <p>If you want to get in touch with us, the best thing
+                to do is to email us. Try this:
+                hello@openhatch.org</p>
+
+                <p>Want to chat ahead of the event? Ask questions on
+                #openhatch on FreeNode. Consider using IRC your first
+                open source accomplishment :)
+                Click <a href="http://webchat.freenode.net/?randomnick=1&amp;channels=%23openhatch">here
+                for web chat</a>.</p>
+  
+                <h2>Sign up</h2>
+                <p>Now is the time to scroll up and make sure you sign
+                up!</p>
+        </div>
+
+</body>
+</html>

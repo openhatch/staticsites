@@ -1,0 +1,36 @@
+<?php
+$page_title = "Home";
+$content = <<<EOD
+<h2>Open source comes to campus</h2>
+
+<p>We're free software enthusiasts.</p>
+
+<p>We want Philadelphia college students to have the community knowledge and technical skills to participate in
+globally distributed software projects: Big ones, like
+<a href="http://www.mozilla.com/firefox/">Firefox</a> and 
+<a href="http://wordpress.org/">WordPress</a>, and small ones, like
+<a href="http://pyblosxom.bluesock.org/">PyBlosxom</a> and
+<a href="http://rephial.org/">angband</a>.</p>
+
+<p>Does that sound cool? We'll teach you.</p>
+<p>You do <b>not</b> need to know how to program to contribute to free software. You can contribute code, but also original art, testing, documentation, web design, or anything else.</p>
+
+
+<div class="floatleft" style="float: right;">
+<h2>It's over... what now?</h2>
+
+<p>On <strong>Saturday, Sep 25</strong>, we taught 30 college students.</p>
+
+<p>(If you're interested in the old front page, <a href="old-index/">you can still see it</a>.)</p>
+
+<p class="doit"><a href="http://openhatch.org/wiki/U_Penn_open_source_2010"><strong>Read how you can follow up from the event</strong></a> &raquo;</p>
+
+</div>
+
+
+<br style="clear: both;" />
+
+EOD;
+
+require_once("template.php");
+?>

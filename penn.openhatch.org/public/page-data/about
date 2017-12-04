@@ -1,0 +1,28 @@
+<?php
+$page_title = "About";
+$content = <<<EOD
+<h2>Who we are</h2>
+
+<p>The event is put together by
+<a href="http://openhatch.org/people/paulproteus/">Asheesh Laroia</a>,
+<a href="http://openhatch.org/people/ymasory/">Yuvi Masory</a>, and <a href="http://github.com/fford">Felice Ford</a> with the generous help of the Penn Department of Computer and Information Science. Asheesh hopes
+that it becomes the first of a series of OpenHatch-led student immersion events
+in the free software community.</p>
+
+<h2>Sponsors</h2>
+
+<p>We're grateful to have the sponsorship of <a href="http://github.com/">Github</a>,
+<a href="http://bitbucker.com/">Bitbucket</a>, <a href="http://oreilly.com/">O'Reilly</a>, and <a href="http://pragprog.com/">Pragmatic Bookshelf</a>. They have provided us with funding and lots of goodies to give to attendees.</p>
+
+<h2>Get in touch</h2>
+
+<p>If you want to get in touch with us, the best thing to do is to email us. Try this: penn@openhatch.org</p>
+
+<p>Want to chat ahead of the event? Ask questions on ##penn on FreeNode, below. Consider using IRC your first open source accomplishment :)</p>
+
+<iframe src="http://webchat.freenode.net?randomnick=1&channels=%23%23penn&uio=d4" width="647" height="400"></iframe>
+
+EOD;
+
+require_once("template.php");
+?>

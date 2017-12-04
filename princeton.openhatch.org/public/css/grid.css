@@ -1,0 +1,118 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  /* Removes padding behavior on widths */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.frame {
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Clearfix */
+.frame:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  margin-bottom: 20px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.c-1 {
+  width: 8.33333%;
+}
+
+.c-2 {
+  width: 16.66667%;
+}
+
+.c-3 {
+  width: 25%;
+}
+
+.c-4 {
+  width: 33.33333%;
+}
+
+.c-5 {
+  width: 41.66667%;
+}
+
+.c-6 {
+  width: 50%;
+}
+
+.c-7 {
+  width: 58.33333%;
+}
+
+.c-8 {
+  width: 66.66667%;
+}
+
+.c-9 {
+  width: 75%;
+}
+
+.c-10 {
+  width: 83.33333%;
+}
+
+.c-11 {
+  width: 91.66667%;
+}
+
+.c-12 {
+  width: 100%;
+}
+
+[class*='c-'] {
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .frame {
+    max-width: 400px;
+  }
+
+  .row {
+    padding: 0 10px 0 10px;
+    margin-bottom: 0;
+  }
+
+  [class*='c-'] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+@media (min-width: 600px) and (max-width: 800px) {
+  .frame {
+    max-width: 520px;
+  }
+
+  .row {
+    padding: 0;
+  }
+}
+@media (min-width: 800px) and (max-width: 1140px) {
+  .frame {
+    max-width: 720px;
+  }
+
+  .row {
+    padding: 0;
+  }
+}

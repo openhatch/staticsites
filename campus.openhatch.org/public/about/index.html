@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>About -- Open Source Comes to Campus</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="http://campus.openhatch.org//style.css" media="screen" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<base href="http://campus.openhatch.org/" />
+</head>
+<body>
+<div id="header">
+<a href="http://www.openhatch.org"><img src="images/openhatch-logo.png" class="alignleft" /></a>
+<h1><a href="">Open Source Comes to Campus</a></h1>
+<h2>by OpenHatch</h2>
+ <div id="menu">
+  <ul id="nav">
+   <li  > <a href="">Home</a></li>
+   <li  > <a href="curriculum/">What we teach</a></li>
+   <li  > <a href="past-events/">Past events</a></li>
+   <li  > <a href="upcoming-events/">Upcoming events</a></li>
+   <li class="activelink"  > <a href="about/">About us</a></li>
+   <li  > <a href="sponsors/">Sponsors</a></li>
+  </ul>
+ </div>
+</div>
+<div id="content">
+<div id="right">
+<img src="images/happystudents.jpg" />
+<img src="images/amherststudents.jpg" />
+<img src="images/intenseteaching.jpg" />
+<img src="images/welcomehackers.jpg" />
+<img src="images/yuvithinks.jpg" />
+<img src="images/amherststudents2.jpg" />
+</div>
+<div id="left">
+
+<script type="text/javascript">
+var click_handler = function () {
+   // Create the iframe we will drop in
+   var iframe = document.createElement("iframe");
+   iframe.src = "http://webchat.freenode.net?randomnick=1&channels=%23openhatch&uio=d4";
+   iframe.width = "640";
+   iframe.height = "400";
+
+   // Find the element to replace
+   var p = document.getElementById('click_to_webchat');
+   if ( p === null ) {
+        return false;
+   }
+    
+   // Do the replacement
+   p.parentNode.replaceChild(iframe, p);
+
+   // return false, indicating that event propagation should stop
+   return false;
+}
+
+// Bind it to our favorite link
+var bind_click_handler = function () {
+    $('#click_to_webchat a').click(click_handler);
+}
+
+// Bind it at page load
+$(bind_click_handler);
+</script>
+
+<h2>About these events</h2>
+
+<p>As we said on the <a href="/">front page</a>, we want more students to know how to contribute to 
+open source software. We believe in learning through <em>doing</em>, which is why the events are designed
+to be interactive. We also believe it's essential to understand that there is a community behind
+open source software; to show how real that is, we bring community members onto campus.</p>
+
+<p>So far, we have run one event. You can read about that on
+the <a href="/past-events/">past events</a> page.</p>
+
+<p>The events are usually organized by Shauna Gordon-McKeon and Asheesh Laroia.</p>
+
+<h2>About Shauna</h2>
+
+<p><img src="images/shauna.jpg" width="180" class="alignleft" />  <a href="http://www.shaunagm.net/">Shauna Gordon-McKeon</a> is the main organizer of OpenHatch's Open Source Comes to Campus events.  She's also a freelance programmer, researcher, organizer and writer.  She's worked for the <a href="http://www.media.mit.edu/">MIT Media Lab</a> and <a href="http://theciviccommons.com/">Civic Commons</a>, among others, and volunteers with <a href="http://sunlightfoundation.com/">the Sunlight Foundation</a> and the <a href="http://www.openscienceframework.org/">Open Science Collaboration</a>.</p>
+
+<p>Shauna is currently based in Boston, MA.</p>
+<br />
+<br />
+<h2>About Asheesh</h2>
+
+<p><img src="images/asheesh.jpg" width="180" class="alignleft" /> <a href="http://openhatch.org/people/paulproteus/">Asheesh Laroia</a> is the co-founder and lead developer of <a href="http://openhatch.org">OpenHatch</a> and a Developer in <a href="http://www.debian.org">Debian</a>. He has also engineered software at <a href="http://creativecommons.org">Creative Commons</a> in San Francisco and worked on Python-based video sharing site <a href="http://www.mirocommunity.org/">Miro Community</a> for the <a href="http://pculture.org">Participatory Culture Foundation</a> with an office in New York City. He has given talks on <abbr title="Free, open source software">FOSS</abbr> mentorship, community-building, and outreach at several open source software conferences including <a href="http://blip.tv/pycon-us-videos-2009-2010-2011/pycon-2011-get-new-contributors-and-diversity-through-outreach-4898684">PyCon</a> and <a href="http://penta.debconf.org/dc11_schedule/events/778.en.html">DebConf</a>.</p>
+
+<p>Asheesh is currently based in San Francisco, CA, and regularly travels all over the place.</p>
+<br />
+<br />
+<h2>About OpenHatch</h2>
+
+<p>OpenHatch is an open source community aiming to help newcomers find their way into open source software projects. We work toward this goal by developing useful <a href="https://openhatch.org/">web tools</a> for new contributors and leading <a href="http://openhatch.org/wiki/Events">outreach events</a>, both on-line and in person.</p>
+
+<p>We believe in the value of
+<a href="http://www.gnu.org/philosophy/free-sw.html">free software</a>.
+In this web site, we call it
+"open source" because that term is more well-known.
+You can read more about the history of the phrases
+in Karl Fogel's book,
+<a href="http://producingoss.com/en/introduction.html#free-vs-open-source">Producing Open Source Software</a>.</p>
+
+<h2>Get in touch</h2>
+
+<p>If you want to help one of these events happen near you, you can <a href="/upcoming-events/">read how to do that</a>.</p>
+
+<p>If you want to help organize or discuss these events, you should join the <a href="http://lists.openhatch.org/mailman/listinfo/events">events mailing list</a>. We discuss a number of outreach events there.</p>
+
+<p>Want to chat ahead of an event? Have other questions? Ask questions on the #openhatch channel on FreeNode, below. Consider using IRC your first open source accomplishment :)</p>
+
+<div style="height: 400;">
+<p id="click_to_webchat" style="margin-top: 50px;"><a href="#" onclick="click_handler();">Click here to chat on IRC within this web page</a></p>
+</div>
+</div>
+	
+</div>
+</body>
+</html>
